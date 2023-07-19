@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
 
     plus = a + b;
 
-    printf("%u(0x%x)\n",sum, sum);
+    printf("%u / 0x%x\n",plus, plus);
     
     fclose(f_1);    fclose(f_2);
     return 0;
