@@ -12,8 +12,8 @@ int main(int argc, char *argv[]) {
     f_1 = fopen(argv[1], "rb");
     f_2 = fopen(argv[2], "rb");
 
-    fread(&a, sizeof(a), 1, fp1);
-    fread(&b, sizeof(b), 1, fp2);
+    fread(&a, sizeof(a), 1, f_1);
+    fread(&b, sizeof(b), 1, f_2);
 
     a = ntohl(a);
     b = ntohl(b);  
